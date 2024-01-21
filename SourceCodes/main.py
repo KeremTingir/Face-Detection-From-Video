@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # video opening processing
-cap = cv2.VideoCapture("Datasets//video_2.mp4")
+cap = cv2.VideoCapture("Datasets//#####")  # Upload the video path in the datasets folder here
 
 # loading the face recognition model
 face_cascade_frontal = cv2.CascadeClassifier("DataSets//haarcascade_frontalface_default.xml")
